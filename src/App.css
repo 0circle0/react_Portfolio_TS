@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Gill Sans Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gill Sans Nova'), url('https://fonts.cdnfonts.com/s/13921/5.- Gill Sans Nova Book.woff') format('woff');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.faceImg {
+  width: 92px;
+  height: 128px;
+  box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 1.5em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (min-width : 900px) {
+
+  .resumeDownload {
+    position: fixed;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+@media  (max-width : 899px) {
+  .resumeDownload {
+      display: flex;
+      margin: auto;
+      align-content: center;
+      justify-content: space-around;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+div a img {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .w-auto-75-33 {
+    width:75% !important;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width: 1001px) {
+  .w-auto-75-33 {
+    width: 33% !important;
   }
+}
+
+@media (min-width: 450px),(max-width: 899px) {
+
+  .w-lg-25 {
+      width: 100% !important;
+  }
+}
+
+@media (min-width: 900px),(max-width: 1399) {
+
+  .w-lg-25 {
+      width: 50% !important;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .w-lg-25 {
+      width: 25% !important;
+  }
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:focus {
+  background-color: grey;
+  color:#fff;
+  border-radius: 4px;
+}
+
+.card {
+  transition: transform 0.1s ease;
+  box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 1.5em;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+html, body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1:focus {
+  outline: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.content {
+  padding-top: 1.1rem;
 }
