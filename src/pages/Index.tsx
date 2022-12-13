@@ -34,7 +34,7 @@ const Index: React.FC = (): JSX.Element => {
   }
   let ReactCard = {
     Title: "React",
-    Text: "This site was created with React 18 with JavaScript and Bootstrap 5 view the source code on Github",
+    Text: "This site was also created with React 18 with JavaScript and Bootstrap 5 view the source code on Github",
     Link: "https://github.com/0circle0/react_portfolio",
     SrcImage: "/logo192.png"
   }
@@ -51,8 +51,8 @@ const Index: React.FC = (): JSX.Element => {
       <Card Details={DiceCard} />
       <Card Details={WordCard} />
       <Card Details={GithubCard} />
-      <Card Details={ReactCard} />
       <Card Details={ReactCardTS} />
+      <Card Details={ReactCard} />
       <Card Details={BlazorCard} />
     </>
   );
