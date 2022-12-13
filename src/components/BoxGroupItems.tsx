@@ -3,7 +3,7 @@ type BoxGroupProps = {
     children: React.ReactNode
 }
 
-export default function BoxGroupItems({ Title, children }: BoxGroupProps) {
+const BoxGroupItems = ({ Title, children }: BoxGroupProps) : JSX.Element => {
     return (
         <div className="mt-5 mb-5">
             <h2 className="d-flex justify-content-center">{Title}</h2>
@@ -15,3 +15,5 @@ export default function BoxGroupItems({ Title, children }: BoxGroupProps) {
         </div>
     );
 }
+
+export default BoxGroupItems;

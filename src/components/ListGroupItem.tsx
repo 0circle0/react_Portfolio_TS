@@ -3,7 +3,7 @@ type ListGroupItemProps = {
     Title: string
     List: string[]
 }
-export default function ListGroupItem({ Title, List }: ListGroupItemProps) {
+const ListGroupItem = ({ Title, List }: ListGroupItemProps) : JSX.Element =>  {
     return (
         <li className="list-group-item border">
             {Title}
@@ -19,3 +19,5 @@ export default function ListGroupItem({ Title, List }: ListGroupItemProps) {
         </li>
     );
 }
+
+export default ListGroupItem;

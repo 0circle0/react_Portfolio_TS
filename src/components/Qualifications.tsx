@@ -1,6 +1,6 @@
 import UnorderedList from "./UnorderedList";
 
-export default function Qualifications() {
+const Qualifications: React.FC = () : JSX.Element =>  {
     let QualificationList = ["Strong technical aptitude with exceptional talent in training and personal development.",
         "Outstanding interpersonal and communication skills with ability to listen and respond appropriately to technical questions.",
         "Ability to function effectively as a team player as well as individually to achieve objectives.",
@@ -12,3 +12,5 @@ export default function Qualifications() {
         <UnorderedList List={QualificationList} Title="Summary of Qualifications" />
     );
 }
+
+export default Qualifications;

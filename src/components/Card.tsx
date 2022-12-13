@@ -7,7 +7,7 @@ type CardProps = {
     }
 }
 
-export default function Card(props: CardProps) {
+const Card = (props: CardProps) : JSX.Element => {
 
     let {SrcImage, Link, Text, Title} = props.Details;
     return (
@@ -25,3 +25,5 @@ export default function Card(props: CardProps) {
         </>
     );
 }
+
+export default Card;

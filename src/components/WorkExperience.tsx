@@ -1,6 +1,6 @@
 import BoxGroupItems from "./BoxGroupItems"
 import ListGroupItem from "./ListGroupItem"
-export default function WorkExperience() {
+const WorkExperience: React.FC = () : JSX.Element =>  {
     let WalMartJob = [
         "January 2012 - October 2017",
         "Inventory Control Specialist",
@@ -59,3 +59,5 @@ export default function WorkExperience() {
         </BoxGroupItems>
     );
 }
+
+export default WorkExperience;

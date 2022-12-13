@@ -1,6 +1,6 @@
 import ListGroup from "./ListGroup";
 
-export default function Skills() {
+const Skills: React.FC = () : JSX.Element =>  {
     let LanguageSkills = ["Java", "C/C++", "JavaScript", "HTML", "CSS", "C#"]
     let PrimarySkills = [".Net", "Unity3D", "NodeJS", "MongoDB", "Github", "Windows OS"]
     let SecondarySkills = ["Forklift", "Electric Pallet Jack", "Scissor Lift", "Order Picker"]
@@ -17,3 +17,5 @@ export default function Skills() {
         </div>
     );
 }
+
+export default Skills;

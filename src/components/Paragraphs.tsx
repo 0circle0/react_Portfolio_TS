@@ -5,7 +5,7 @@ type ParagraphsProps = {
     Data: string[]
     CenterData?: boolean
 }
-export default function Paragraphs({ Title, Data, CenterData = false } : ParagraphsProps) {
+const Paragraphs = ({ Title, Data, CenterData = false } : ParagraphsProps) : JSX.Element =>  {
     
     let items = Data.map((item) => {
         let key = CreateKey(item);
@@ -22,3 +22,5 @@ export default function Paragraphs({ Title, Data, CenterData = false } : Paragra
         </div>
     );
 }
+
+export default Paragraphs;

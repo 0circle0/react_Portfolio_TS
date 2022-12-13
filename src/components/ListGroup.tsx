@@ -2,7 +2,7 @@ import { CreateKey } from "./CreateKey";
 type ListGroupProps = {
     List: string[]
 }
-export default function ListGroup({ List }: ListGroupProps) {
+const ListGroup = ({ List }: ListGroupProps) : JSX.Element =>  {
     return (
         <ul className="list-group justify-content-center list-group-horizontal-lg p-sm-0 p-lg-1">
             {List.map((skill) => {
@@ -15,3 +15,5 @@ export default function ListGroup({ List }: ListGroupProps) {
         </ul>
     );
 }
+
+export default ListGroup;

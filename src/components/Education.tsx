@@ -1,6 +1,6 @@
 import BoxGroupItems from "./BoxGroupItems";
 import ListGroupItem from "./ListGroupItem";
-export default function Education() {
+const  Education: React.FC = () : JSX.Element =>  {
     let HighSchool = ["Kenosha Unified, Kenosha WI", "Graduation with DIploma December 2002"];
     return (
         <BoxGroupItems Title="Education">
@@ -8,3 +8,5 @@ export default function Education() {
         </BoxGroupItems>
     );
 }
+
+export default Education;
