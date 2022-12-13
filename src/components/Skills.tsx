@@ -1,6 +1,6 @@
 import ListGroup from "./ListGroup";
 
-const Skills: React.FC = () : JSX.Element =>  {
+const Skills = () => {
     let LanguageSkills = ["Java", "C/C++", "JavaScript", "HTML", "CSS", "C#"]
     let PrimarySkills = [".Net", "Unity3D", "NodeJS", "MongoDB", "Github", "Windows OS"]
     let SecondarySkills = ["Forklift", "Electric Pallet Jack", "Scissor Lift", "Order Picker"]

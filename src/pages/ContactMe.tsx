@@ -1,4 +1,4 @@
-const ContactMe: React.FC = ():JSX.Element => {
+const ContactMe = () => {
     document.title = "Contact Me";
     return (
         <div className="container w-auto-75-33 text-center p-3 shadow-sm">

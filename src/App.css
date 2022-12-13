@@ -21,16 +21,21 @@
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
 }
 
-@media  (max-width : 899px) {
+@media (max-width : 899px) {
   .resumeDownload {
-      display: flex;
-      margin: auto;
-      align-content: center;
-      justify-content: space-around;
+    display: flex;
+    margin: auto;
+    align-content: center;
+    justify-content: space-around;
   }
 }
 
@@ -40,7 +45,7 @@ div a img {
 
 @media (max-width: 1000px) {
   .w-auto-75-33 {
-    width:75% !important;
+    width: 75% !important;
   }
 }
 
@@ -50,24 +55,26 @@ div a img {
   }
 }
 
-@media (min-width: 450px),(max-width: 899px) {
+@media (min-width: 450px),
+(max-width: 899px) {
 
   .w-lg-25 {
-      width: 100% !important;
+    width: 100% !important;
   }
 }
 
-@media (min-width: 900px),(max-width: 1399) {
+@media (min-width: 900px),
+(max-width: 1399) {
 
   .w-lg-25 {
-      width: 50% !important;
+    width: 50% !important;
   }
 }
 
 @media (min-width: 1400px) {
 
   .w-lg-25 {
-      width: 25% !important;
+    width: 25% !important;
   }
 }
 
@@ -81,7 +88,7 @@ div a img {
 
 .nav-link:focus {
   background-color: grey;
-  color:#fff;
+  color: #fff;
   border-radius: 4px;
 }
 
@@ -97,7 +104,8 @@ div a img {
   transform: scale(1.02);
 }
 
-html, body {
+html,
+body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 

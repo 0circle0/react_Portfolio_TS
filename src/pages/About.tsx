@@ -1,7 +1,6 @@
-import React from "react";
 import Paragraphs from "../components/Paragraphs";
 
-const About: React.FC = (): JSX.Element => {
+const About = () => {
     document.title = "About Me";
 
     let AboutMe = [`Self taught programmer using books, stackoverflow.com, API Docs, and youtube videos. 

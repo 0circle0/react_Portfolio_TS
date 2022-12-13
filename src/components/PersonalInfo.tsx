@@ -7,7 +7,7 @@ type PersonalInfoProps = {
     Image: string
 }
 
-const PersonalInfo = ({ Address1, Address2, LinkedIn, Email, ImageTitle, Image } : PersonalInfoProps) : JSX.Element =>  {
+const PersonalInfo = ({ Address1, Address2, LinkedIn, Email, ImageTitle, Image }: PersonalInfoProps) => {
     return (
         <div className="d-flex justify-content-between mb-5 mb-lg-0">
             <img src={Image} className="faceImg rounded" title={ImageTitle} alt="" />

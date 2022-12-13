@@ -1,7 +1,8 @@
 import Hash from 'object-hash'
 
 type CreateKeyProps = string;
-function CreateKey(prop : CreateKeyProps) {
+
+function CreateKey(prop: CreateKeyProps) {
     return Hash(prop);
 }
 

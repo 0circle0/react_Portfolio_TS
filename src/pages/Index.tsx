@@ -1,5 +1,6 @@
 import Card from '../components/Card'
-const Index: React.FC = (): JSX.Element => {
+
+const Index = () => {
   document.title = "Portfolio";
 
   let SpriteCreatorCard = {

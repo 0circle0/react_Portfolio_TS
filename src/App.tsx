@@ -1,5 +1,4 @@
 import './App.css';
-import React from 'react';
 import { Routes, Route, Outlet } from 'react-router-dom'
 import Index from './pages/Index'
 import About from './pages/About'
@@ -7,8 +6,7 @@ import ContactMe from './pages/ContactMe'
 import Resume from './pages/Resume'
 import NavMenu from './shared/NavMenu';
 
-const App: React.FC = (): JSX.Element => {
-
+const App = () => {
   return (
     <div className="App">
       <div className="page">

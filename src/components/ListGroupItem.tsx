@@ -1,9 +1,11 @@
 import { CreateKey } from "./CreateKey";
+
 type ListGroupItemProps = {
     Title: string
     List: string[]
 }
-const ListGroupItem = ({ Title, List }: ListGroupItemProps) : JSX.Element =>  {
+
+const ListGroupItem = ({ Title, List }: ListGroupItemProps) => {
     return (
         <li className="list-group-item border">
             {Title}

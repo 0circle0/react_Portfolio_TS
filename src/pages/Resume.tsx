@@ -5,7 +5,7 @@ import Qualifications from '../components/Qualifications'
 import PersonalInfo from '../components/PersonalInfo'
 import Certs from '../components/Certs'
 
-const Resume: React.FC = (): JSX.Element => {
+const Resume = () => {
     document.title = "Resume";
 
     function Print() {

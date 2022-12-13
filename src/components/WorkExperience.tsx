@@ -1,6 +1,7 @@
 import BoxGroupItems from "./BoxGroupItems"
 import ListGroupItem from "./ListGroupItem"
-const WorkExperience: React.FC = () : JSX.Element =>  {
+
+const WorkExperience = () => {
     let WalMartJob = [
         "January 2012 - October 2017",
         "Inventory Control Specialist",

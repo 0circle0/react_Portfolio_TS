@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import useWindowSize from "../components/WindowManager";
 import '../NavMenu.css'
 
-const NavMenu : React.FC = () : JSX.Element =>  {
+const NavMenu = (): JSX.Element => {
 
     let [collapseNavMenu, setCollapseNavMenu] = useState(false);
     let [containsCollapse, setContainsCollapse] = useState(false);

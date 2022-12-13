@@ -3,7 +3,7 @@ type BoxGroupProps = {
     children: React.ReactNode
 }
 
-const BoxGroupItems = ({ Title, children }: BoxGroupProps) : JSX.Element => {
+const BoxGroupItems = ({ Title, children }: BoxGroupProps) => {
     return (
         <div className="mt-5 mb-5">
             <h2 className="d-flex justify-content-center">{Title}</h2>

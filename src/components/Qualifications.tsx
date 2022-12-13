@@ -1,6 +1,6 @@
 import UnorderedList from "./UnorderedList";
 
-const Qualifications: React.FC = () : JSX.Element =>  {
+const Qualifications = () => {
     let QualificationList = ["Strong technical aptitude with exceptional talent in training and personal development.",
         "Outstanding interpersonal and communication skills with ability to listen and respond appropriately to technical questions.",
         "Ability to function effectively as a team player as well as individually to achieve objectives.",

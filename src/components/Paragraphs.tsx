@@ -5,8 +5,9 @@ type ParagraphsProps = {
     Data: string[]
     CenterData?: boolean
 }
-const Paragraphs = ({ Title, Data, CenterData = false } : ParagraphsProps) : JSX.Element =>  {
-    
+
+const Paragraphs = ({ Title, Data, CenterData = false }: ParagraphsProps) => {
+
     let items = Data.map((item) => {
         let key = CreateKey(item);
         return (

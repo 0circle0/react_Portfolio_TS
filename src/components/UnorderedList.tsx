@@ -5,7 +5,7 @@ type UnorderedListProps = {
     List: string[]
 }
 
-const UnorderedList = ({ Title, List } : UnorderedListProps) : JSX.Element =>  {
+const UnorderedList = ({ Title, List }: UnorderedListProps) => {
     return (
         <>
             <h2 className="d-flex justify-content-center">{Title}</h2>
